@@ -159,7 +159,7 @@ function ce() {
 var A = "data-original-href",
   j = "link[rel*='icon']",
   ue = `${j}:not([${A}])`,
-  de = "https://framerusercontent.com/sites/icons/writing-hand-favicon.png";
+  de = "./framerusercontent/sites/icons/writing-hand-favicon.png";
 function H() {
   document.querySelectorAll(ue).forEach((e) => {
     e instanceof HTMLLinkElement &&
