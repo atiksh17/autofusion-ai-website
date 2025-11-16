@@ -2978,7 +2978,11 @@ e(() => {
 																									style: {
 																										backgroundImage: `linear-gradient(90deg, var(--token-59e77027-930e-45f7-94aa-a8ffadf9e382, rgb(255, 255, 255)) 0%, var(--token-14f74354-f5bc-49c1-9486-2936a231e276, rgba(255, 255, 255, 0.3)) 350%)`,
 																									},
-																									children: `Connecting you to`,
+																									children: u([
+																							            `Connecting you to`,
+																							            o('br', {}),
+																							            `your ideal customers`
+																							        ]),
 																								}),
 																							}),
 																						}),
